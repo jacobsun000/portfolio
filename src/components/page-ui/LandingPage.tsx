@@ -2,9 +2,10 @@
 
 import Link from 'next/link';
 import { useEffect } from 'react';
+
 import { Button } from '@/components/ui/button';
-import { TypewriterEffectSmooth } from '@/components/ui/typewriter-effect';
 import { renderCanvas } from '@/components/ui/render-canvas';
+import { TypewriterEffectSmooth } from '@/components/ui/typewriter-effect';
 
 const words = [
   {
@@ -43,7 +44,7 @@ export function LandingPage() {
           </Link>
         </div>
       </div>
-      <canvas className="bg-skin-base z-50 pointer-events-none absolute inset-0" id="canvas"></canvas>
+      <canvas className="bg-skin-base pointer-events-none absolute inset-0 z-50" id="canvas"></canvas>
     </div>
   );
 }

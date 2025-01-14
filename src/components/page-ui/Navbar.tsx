@@ -1,10 +1,9 @@
 'use client';
-import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon, VercelLogoIcon } from '@radix-ui/react-icons';
-
-
 import Link from 'next/link';
+
+import { cn } from '@/lib/utils';
+
 import { ThemeSwitch } from './ThemeSwitch';
-import { cn } from '@/lib/utils'; cn
 
 const navigationLinks = [
   { href: '#landing-page', title: 'Home' },
@@ -29,7 +28,7 @@ export function Navbar() {
             </Link>
           </div>
           <div className="flex items-center space-x-3 text-base leading-5">
-            <div className="hidden space-x-5 sm:flex mr-2">
+            <div className="mr-2 hidden space-x-5 sm:flex">
               {navigationLinks.map(({ title, href }) => {
                 const active = title === 'Home';
                 return (
@@ -99,11 +98,11 @@ function MobileNav() {
             'fixed inset-0 z-20 h-full w-full bg-white opacity-95 dark:bg-black'
           )}
         >
-          <header className="flex justify-end py-5 px-4">
+          <header className="flex justify-end px-4 py-5">
             <button
               type="button"
               aria-label="toggle modal"
-              className="h-8 w-8 rounded"
+              className="size-8 rounded"
               onClick={() => setNavShow(!navShow)}
             >
               <svg
