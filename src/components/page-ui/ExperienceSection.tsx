@@ -25,7 +25,7 @@ export function ExperienceSection() {
   );
 }
 
-function HyprLink({ href }) {
+function HyprLink({ href }: { href: String }) {
   return (
     <a className="text-blue-400">{href}</a>
   )
