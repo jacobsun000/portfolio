@@ -36,7 +36,7 @@ const experience = [
     title: 'JOJO Tech LLC',
     description: (
       <ul className="list-disc">
-        <li><b>Founded</b> and led a software development company with 15 employees, utilizing Agile methodologies and modern technology stacks like React, Node.js, and AWS, resulting in delivering over <b>20 successful projects</b> for clients across various industries.</li>
+        <li><b>Founded</b> and led a software development company with 15 employees, utilizing Agile methodologies and modern technology stacks like React, Node.js, and AWS, resulting in delivering over <b>15 successful projects</b> for clients across various industries.</li>
         <li>Led the design, development, and deployment of outsourced software solutions using TS, Python, and AWS for businesses across diverse industries, delivering high-quality products that met client requirements and achieved a <b>100% satisfaction rate</b>, while balancing technical innovation.</li>
         <li>Developed a high-traffic online shopping platform supporting over <b>5,000 active users monthly</b>, featuring a robot-based inventory management system and an AI-powered conversational shopping assistant, utilizing MongoDB, Express.js, and React.js technologies.</li>
         <li>Developed a scalable math quiz platform for over <b>1,000 students</b>, incorporating automated math problem generation using a Computer Algebra System (CAS) and LLM technologies, and leveraging React, FastAPI, and PyTorch for the tech stack. <HyprLink href="github.com/jacobsun000/mathellm" /></li>
