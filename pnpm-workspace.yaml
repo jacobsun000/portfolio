@@ -1,4 +1,0 @@
-onlyBuiltDependencies:
-  - '@tsparticles/engine'
-  - '@vercel/speed-insights'
-  - sharp
